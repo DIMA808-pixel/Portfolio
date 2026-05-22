@@ -4,17 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
     <title>Portfolio Home</title>
 </head>
 <body>
-    <header><h1>Demetrios' Page</h1></header>
+    <header>
+        <h1>Demetrios' Page</h1>
+        
+        <div class="burger-menu">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="burger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            
+            <div class="menu-dropdown">
+                <a href="index.html">Home</a>
+                <a href="blog.html">Blog</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </header>
+
     <nav>
         <a href="#about">About Me</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
+        <a href="#extracurriculars">Extracurriculars</a>
     </nav>
-    <main>
 
+    <main>
         <section id="about">
             <h2>About Me</h2>
             <p> 
@@ -23,6 +43,17 @@
                 My hobbies are going to the gym and wrestling on my schools team. 
             </p>
         </section>
+
+        <div class="heritage-gallery">
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1533105079780-92b9be482077?q=80&w=600&auto=format&fit=crop" alt="Beautiful landscape of Greece">
+                <span class="gallery-caption">Greece</span>
+            </div>
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?q=80&w=600&auto=format&fit=crop" alt="Beautiful landscape of Brazil">
+                <span class="gallery-caption">Brazil</span>
+            </div>
+        </div>
 
         <section id="skills">
             <h2>Skills</h2>
@@ -38,11 +69,11 @@
                 Throughout my highschool career I have done many projects, 
                 one that stuck out to me was an interview project in my economics class. 
                 This project consisted of an interview with a local business, analyzing how they use the porters five forces.
-                 The interview got me out of my comfort zone, by speaking to a business owner as a highscool student. 
+                The interview got me out of my comfort zone, by speaking to a business owner as a highscool student. 
             </p>
         </section>
 
-        <section id="sports">
+        <section id="extracurriculars">
             <h2>Extracurriculars</h2>
             <ol>
                 <li> wrestling </li>
@@ -55,7 +86,7 @@
         </section>
     </main>
     
-    <footer><h3> Contact inofrmation below! </h3></footer>
+    <footer><h3> Contact information below! </h3></footer>
     
 </body>
 </html>
