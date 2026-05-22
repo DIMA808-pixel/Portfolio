@@ -301,3 +301,80 @@ footer a:hover {
         margin-bottom: 40px;
     }
 }
+
+.light-luxury-theme {
+    background-color: #f7f4ef;
+}
+
+.light-luxury-theme body {
+    background-color: #f7f4ef;
+}
+
+.light-luxury-theme header {
+    background-color: #efebe4;
+    border-bottom: 1px solid #c5a028;
+}
+
+.light-luxury-theme h1 {
+    color: #b38f1d;
+}
+
+.light-luxury-theme .burger-icon span {
+    background-color: #b38f1d;
+}
+
+.light-luxury-theme .menu-dropdown {
+    background-color: #efebe4;
+    border: 1px solid #c5a028;
+}
+
+.light-luxury-theme .menu-dropdown a {
+    color: #4a4a4a;
+}
+
+.light-luxury-theme .menu-dropdown a:hover {
+    color: #b38f1d;
+}
+
+.light-luxury-theme h2 {
+    color: #b38f1d;
+}
+
+.light-luxury-theme p {
+    color: #2b2b2b;
+    font-weight: 400;
+}
+
+.light-luxury-theme .page-intro {
+    border-bottom: 1px solid #e0dacb;
+}
+
+.light-luxury-theme .project-card {
+    border-left: 2px solid #c5a028;
+}
+
+.light-luxury-theme .project-card h3 {
+    color: #1a1a1a;
+}
+
+.light-luxury-theme .project-meta {
+    color: #b38f1d;
+    font-weight: 500;
+}
+
+.light-luxury-theme footer {
+    background-color: #efebe4;
+    border-top: 1px solid #e0dacb;
+}
+
+.light-luxury-theme footer h3 {
+    color: #b38f1d;
+}
+
+.light-luxury-theme footer a {
+    color: #4a4a4a;
+}
+
+.light-luxury-theme footer a:hover {
+    color: #1a1a1a;
+}
